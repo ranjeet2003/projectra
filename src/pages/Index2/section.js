@@ -32,23 +32,29 @@ class Section extends Component {
                     Find the professonal trainers for your project
                   </p>
                   <h1 className="hero-title mb-4">
-                    Train yourself and develop your project with{" "}
-                    <span className="text-primary">Projectra</span>
+                    Get training along with certification for your project with{" "}
+                    <span className="text-primary">ProjecTra</span>
                   </h1>
 
                   <p>
-                    Don't worry about your B.Tech project. Contact us, we'll
-                    provide you proper training, guidance along with project
-                    development of your choice, your technology, your domain.
+                    We have team of professional software engineers of mltiple
+                    domains to provide you proper guidance, training, along with
+                    project ideas & development of your choice, your technology,
+                    your domain.
                   </p>
 
                   <div className="mt-4">
-                    <Link to="/index3" className="btn btn-primary mt-2 mr-2">
+                    <Link
+                      to="/index3"
+                      className="btn btn-primary mt-2 mr-2"
+                      style={{ marginRight: "1%" }}
+                    >
                       Get Started
                     </Link>
                     <Link
                       to="/index4"
                       className="btn btn-success mt-2 mr-2 ml-4"
+                      style={{ marginLeft: "1%" }}
                     >
                       Learn more
                     </Link>
