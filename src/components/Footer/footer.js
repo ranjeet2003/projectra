@@ -18,7 +18,7 @@ class Footer extends Component {
       { link: "#", title: "Pricing" },
       { link: "#", title: "For Marketing" },
       { link: "#", title: "For CEOs" },
-      { link: "#", title: "For Agencies" },
+      // { link: "#", title: "For Agencies" },
       { link: "#", title: "Our Apps" },
     ],
   };
@@ -112,7 +112,7 @@ class Footer extends Component {
           </Container>
         </footer>
         {/* Render footer links */}
-        <FooterLinks />
+        {/* <FooterLinks /> */}
       </React.Fragment>
     );
   }

@@ -51,8 +51,8 @@ class Process extends Component {
         <section className="section bg-light" id="services">
           <Container>
             <SectionTitle
-              subtitle="Services"
-              title="Services We Provide"
+              subtitle="Features"
+              title="Features We Provide"
               desc="All services from our side is client oriented. We develop as you want"
             />
 

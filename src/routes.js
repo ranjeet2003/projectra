@@ -4,6 +4,8 @@ import Index3 from "./pages/Index3/Index3";
 import Index4 from "./pages/Index4/Index4";
 import Index5 from "./pages/Index5/Index5";
 import Index6 from "./pages/Index6/Index6";
+import Login from "./pages/login/Login";
+import Signup from "./pages/Signup/Signup";
 
 const routes = [
   { path: "/index6", component: Index6 },
@@ -11,6 +13,9 @@ const routes = [
   { path: "/index4", component: Index4 },
   { path: "/index3", component: Index3 },
   { path: "/index2", component: Index2 },
+  { path: "/login", component: Login },
+  { path: "/signup", component: Signup },
+
   { path: "/", component: Index2 },
 ];
 

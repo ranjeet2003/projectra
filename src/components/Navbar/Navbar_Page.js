@@ -10,6 +10,7 @@ import {
   Collapse,
   Button,
 } from "reactstrap";
+import { Link } from "react-router-dom";
 
 import ScrollspyNav from "./scrollSpy";
 
@@ -80,10 +81,21 @@ class NavbarPage extends Component {
                     </NavItem>
                   ))}
                 </Nav>
-                <Button color="success" className="btn-rounded navbar-btn">
+                <Button color="success" className="btn-rounded navbar-btn ">
                   Try for Free
                 </Button>
               </ScrollspyNav>
+              <Link to="/login">
+                <Button color="success" className="btn-rounded navbar-btn ">
+                  Login
+                </Button>
+              </Link>
+
+              <Link to="/signup">
+                <Button color="info" className="btn-rounded navbar-btn ">
+                  Sign Up
+                </Button>
+              </Link>
             </Collapse>
           </Container>
         </Navbar>
